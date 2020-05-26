@@ -9620,3 +9620,15 @@ ul.tag_input li img {
     font-size: 18px;
     line-height: 50px;
 }
+@media (max-width: 767px){
+.hidden-xs {
+    display: block !important;
+}
+
+}
+#topbar-first .notifications {
+    margin: 0 auto;
+    text-align: center;
+    width: auto;
+    z-index: 1;
+}
