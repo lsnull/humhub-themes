@@ -9632,3 +9632,15 @@ ul.tag_input li img {
     width: auto;
     z-index: 1;
 }
+@media (max-width: 480px){
+	.user-title.pull-left.hidden-xs {
+    display: none !important;
+}
+}
+.contentForm_options .btn_container .nav-pills {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    right: 0;
+    top: 0 !important;
+}
