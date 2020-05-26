@@ -9573,6 +9573,8 @@ ul.tag_input li img {
 /* Made by Alexandra Travkina and modified by Clement HUSLER */
 /* Distributed under GNU 3.0 */
 
+/* MY CSS */
+
 .post-files {
     margin: 0;
     display: inline-grid;
@@ -9583,7 +9585,7 @@ ul.tag_input li img {
 	margin-bottom: 10px;
 }
 .panel .panel-body img {
-    width: 100%;
+    width: auto;
     height: auto;
     max-height: 600px;
     margin-left: auto;
