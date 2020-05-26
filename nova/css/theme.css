@@ -9572,3 +9572,41 @@ ul.tag_input li img {
 /* Flattened Hub Theme for Humhub */
 /* Made by Alexandra Travkina and modified by Clement HUSLER */
 /* Distributed under GNU 3.0 */
+
+.post-files {
+    margin: 0;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    height: auto;
+	object-fit: cover;
+	margin-bottom: 10px;
+}
+.panel .panel-body img {
+    width: 100%;
+    height: auto;
+    max-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    vertical-align: top;
+    padding: 2px;
+}
+.post-files img {
+    height: 100%!important;
+    width: 100%!important;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    object-fit: cover;
+}
+@media (max-width: 768px){
+.wall-entry .media img {
+    margin-bottom: auto;
+    vertical-align: sub;
+    width: 100%;
+}
+}
+.row:before{
+	display: none;
+    content: " ";
+}
