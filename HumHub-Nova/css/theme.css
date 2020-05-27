@@ -809,6 +809,10 @@ img
 	moz-box-shadow: 0 0 3px #dadada;
 	position: relative;
 	webkit-box-shadow: 0 0 3px #dadada;
+	-webkit-border-radius:;
+	-moz-border-radius:;
+	-ms-border-radius:;
+	-o-border-radius:;
 }
 .panel h1
 {
@@ -7190,3 +7194,14 @@ video {
 
 /**/
 
+.panel
+{
+	background-color: #fff;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 0 0 3px #dadada;
+	margin-bottom: 15px;
+	moz-box-shadow: 0 0 3px #dadada;
+	position: relative;
+	webkit-box-shadow: 0 0 3px #dadada;
+}
