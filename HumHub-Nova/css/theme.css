@@ -7395,12 +7395,12 @@ video {
 	background-color: #fafafa;
 	margin-top: -10px!important;
 	border-radius: 0 0 4px 4px;
-	padding: 10px!important
+	padding: 10px!important;
 }
 
 .comment_create .form-group,
 .content_edit .form-group {
-	margin-bottom: -15px
+	margin-bottom: -15px;
 }
 
 .comment_create .comment-buttons,
@@ -7408,7 +7408,8 @@ video {
 	background-color: #fff;
 	text-align: right;
 	position: relative;
-	display: none
+	display: none;
+	z-index: 99;
 }
 
 .comment_create .ProsemirrorEditor .ProseMirror,
@@ -7419,7 +7420,7 @@ video {
 .comment_create .btn-comment-submit,
 .content_edit .btn-comment-submit {
 	border-radius: 4px 0 0;
-	padding: 10px 15px
+	padding: 10px 15px;
 }
 
 .comment_create .fileinput-button,
@@ -7493,4 +7494,27 @@ video {
 }
 .wall-entry-controls, .wall-entry-controls a {
     font-size: 12px;
+}
+
+#topbar-first .btn-enter {
+    background-color: #3f4e60;
+    margin: 5px 0px;
+    padding: 10px 8px;
+}
+
+.ProsemirrorEditor.focusMenu .ProseMirror-menubar {
+    color: #666;
+    font-size: 12px;
+}
+.ProsemirrorEditor .ProseMirror-menu-dropdown {
+    cursor: pointer;
+    padding-right: 15px !important;
+    position: relative;
+    font-size: 13px;
+}
+
+.btn-enter.btn.btn-primary {
+
+    float: right;
+
 }
