@@ -7243,7 +7243,7 @@ video {
 
 @-moz-document url-prefix() {
 	.ProsemirrorEditor.focusMenu .ProseMirror-menubar {
-		margin-top: -27px
+		margin-top: 0px
 	}
 }
 .ProseMirror.atwho-input.form-control.humhub-ui-richtext {
