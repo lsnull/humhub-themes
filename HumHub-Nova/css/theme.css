@@ -1971,10 +1971,10 @@ body.modal-open
 }
 @media screen and (max-width:768px)
 {
-	.modal-dialog
+	 .modal-dialog
 	{
-		width: calc(100vw - 4px) !important;
-	}
+		/* width: calc(100vw - 4px) !important; */
+	} 
 }
 .modal-top
 {
@@ -4327,9 +4327,9 @@ img.bounceIn
 	#layout-content>.container
 	{
 		overflow-x: hidden;
-		padding-left: 2px !important;
-		padding-right: 2px !important;
-	}
+		/* padding-left: 2px !important;
+		padding-right: 2px !important; */
+	} 
 	#layout-content .layout-nav-container .panel-heading
 	{
 		display: none;
@@ -4360,7 +4360,7 @@ img.bounceIn
 	{
 		margin: 2px !important;
 		padding: 0 !important;
-		width: calc(100vw - 4px) !important;
+		/* width: calc(100vw - 4px) !important; */
 	}
 	.dropdown-menu>li a,.nav-pills .dropdown-menu li a,.nav-tabs .dropdown-menu li a,.account .dropdown-menu li a,.modal .dropdown-menu li a,.panel .dropdown-menu li a,.nav-tabs .dropdown-menu li a
 	{
@@ -6416,10 +6416,10 @@ input[type=text] {
 ul#account-top-menu {
     float: right;
 }
-.row {
+ .row {
     margin-right: 0;
     margin-left: 0;
-}
+} 
 
 .panel .panel-body {
     font-size: inherit;
@@ -6447,7 +6447,7 @@ img.animated.fadeIn {
 .container {
 	width: auto;
     padding-right: 0;
-    padding-left: 0;
+    padding-left: 0; 
     margin-right: auto;
     margin-left: auto;
 }
@@ -7480,13 +7480,13 @@ video {
 
 /**/
 
-.ProseMirror-menubar{
-	display: none;
-}
-.comment_create .comment-buttons, .content_edit .comment-buttons {
+.ProseMirror-menubar{ /* Редактор в чате */
+/* 	display: none;*/
+} 
+ .comment_create .comment-buttons, .content_edit .comment-buttons {
     right: 0px;
-    display: none;
-}
+    /* display: none; */
+} 
 .comment_create, .content_edit {
     background-color: #fff;
     border: 2px solid #fff;
@@ -7553,3 +7553,47 @@ body.modal-open {
     overflow-y: hidden;
 }
 /**/
+
+#task-export-button{
+	position: relative !important;
+
+}
+
+.filter-root .filter-panel {
+
+    display: inline-table;
+    float: none;
+    padding: 0 5px;
+
+}
+
+.task-overview #task-filter-nav {
+
+    padding: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+    width: 100%;
+
+}
+.filter-root .filter-panel + .filter-panel {
+
+    border-left: 2px solid #ededed;
+    min-width: 150px;
+
+}
+
+/* Чат*/
+
+.media-list.conversation-entry-list {
+
+    min-height: 150px;
+
+}
+.btn-primary {
+
+    background:#708fa0;
+
+color: #fff !important;
+    margin-bottom: 5px;
+
+}
