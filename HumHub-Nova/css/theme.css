@@ -1903,7 +1903,7 @@ a.label-warning:hover
 .list-group-item
 {
 	border: none;
-	border-left: 3px solid #fff !important;
+	border-left: 2px solid #fff !important;
 	border-width: 0 !important;
 	font-size: 12px;
 	font-weight: 600;
@@ -1913,10 +1913,16 @@ a.label-warning:hover
 {
 	font-size: 14px;
 }
-a.list-group-item:hover,a.list-group-item.active,a.list-group-item.active:hover,a.list-group-item.active:focus
+a.list-group-item:hover,a.list-group-item.active:hover{
+	background-color: #f7f7f7;
+	border-left: 0px solid #708fa0 !important;
+	color: #555;
+	z-index: 2;
+}
+a.list-group-item.active,a.list-group-item.active:focus
 {
 	background-color: #f7f7f7;
-	border-left: 3px solid #708fa0 !important;
+	border-left: 2px solid #708fa0 !important;
 	color: #555;
 	z-index: 2;
 }
@@ -1932,7 +1938,11 @@ a.list-group-item:hover,a.list-group-item.active,a.list-group-item.active:hover,
 		display: inline-block !important;
 		margin: 4px 0;
 		margin-bottom: 4px !important;
-	}
+		-webkit-border-radius: 3px !important;
+		-moz-border-radius: 3px !important;
+		-ms-border-radius: 3px !important;
+		-o-border-radius: 3px !important;
+}
 	.list-group-item
 	{
 		border: none !important;
