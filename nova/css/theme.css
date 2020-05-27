@@ -5627,7 +5627,8 @@ input[type=text] {
 }
 
 .stars-background #stars3 {
-	animation: animStar 150s linear infinite
+	animation: animStar 150s linear infinite;
+	-webkit-animation: animStar 150s linear infinite;
 }
 
 .panel,
