@@ -7491,3 +7491,6 @@ video {
 {
 	margin-top: 10px;
 }
+.wall-entry-controls, .wall-entry-controls a {
+    font-size: 12px;
+}
