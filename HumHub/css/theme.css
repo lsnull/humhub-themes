@@ -1887,6 +1887,7 @@ a.label-warning:hover
 {
 	max-height: 192px;
 	width: 100%;
+	object-fit: cover;
 }
 @media print
 {
@@ -5102,6 +5103,16 @@ display: inline-block;
 
 }
 @media (max-width: 856px){
+	.topbar {
+
+		padding-left: 0px;
+		padding-right: 0px;
+
+	}
+	.col-md-12{
+		padding-right: 0px;
+		padding-left: 0px;
+	}
 .layout-sidebar-container {
     display: none;
     width: auto;
@@ -7176,3 +7187,6 @@ video {
 		flex-grow: 1
 	}
 }
+
+/**/
+
