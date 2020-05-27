@@ -7494,7 +7494,7 @@ video {
 	margin-top: 10px;
 }
 .wall-entry-controls, .wall-entry-controls a {
-    font-size: 12px;
+    font-size: 12px; /*текст кнопки добавить комментарий*/
 }
 
 #topbar-first .btn-enter {
@@ -7506,7 +7506,7 @@ video {
     cursor: pointer;
     padding-right: 15px !important;
     position: relative;
-    font-size: 13px;
+    font-size: 13px; /*текст параграфа в редакторе */
 }
 
 
@@ -7515,5 +7515,13 @@ video {
 }
 .ProsemirrorEditor.focusMenu .ProseMirror-menubar {
     color:#666;
-    font-size: 10px;
+    font-size: 10px; /*текст выпадающего списка в редакторе */
 }
+
+.ProsemirrorEditor .ProseMirror-menuitem
+{
+	font-size: 1.1em !important;
+}
+/**/
+
+
