@@ -1087,7 +1087,7 @@ img
 }
 .well
 {
-	background-color: #ededed;
+	background-color: #f5f5f5;
 	border: none;
 	box-shadow: none;
 	margin-bottom: 1px;
@@ -2297,10 +2297,7 @@ table td a:hover
 {
 	position: relative;
 }
-.comment-create-input-group .ProsemirrorEditor .ProseMirror
-{
-	padding-right: 72px;
-}
+
 .comment-create-input-group.scrollActive .comment-buttons
 {
 	right: 22px;
@@ -7256,7 +7253,7 @@ video {
 
 .comment-create-input-group .ProsemirrorEditor .ProseMirror {
     padding-right: 10px;
-    padding-bottom: 35px;
+    /* padding-bottom: 35px; */
 }
 .atwho-input.form-control {
     height: auto;
@@ -7288,4 +7285,209 @@ video {
     font-weight: 700;
     margin-bottom: 10px;
     margin-top: 10px;
+}
+
+/**/
+
+.comment .media .content,
+.comment-message [data-ui-markdown],
+.comment-message [data-ui-markdown] ol,
+.comment-message [data-ui-markdown] p,
+.comment-message [data-ui-markdown] ul,
+.comment-message [data-ui-richtext],
+.comment-message [data-ui-richtext] ol,
+.comment-message [data-ui-richtext] p,
+.comment-message [data-ui-richtext] ul {
+	font-family: -apple-system, BlinkMacSystemFont, 'SF UI Text', 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.4
+}
+
+.comment .media {
+	border-bottom: 1px solid #f2f2f2;
+	position: relative!important;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	margin-top: 0
+}
+
+.comment .media:last-of-type {
+	padding-bottom: 0;
+	border-bottom: 0
+}
+
+.comment .media .nav-pills.preferences {
+	display: none;
+	right: -3px;
+	top: -3px
+}
+
+.comment .media .wall-entry-controls {
+	margin-top: 0;
+	padding-top: 0
+}
+
+.comment .media .content {
+	margin-bottom: 0;
+	margin-top: 0
+}
+
+.comment .media .post-files {
+	border-radius: 2px;
+	position: relative;
+	overflow: hidden;
+	margin: 10px 0
+}
+
+.comment .media-body {
+	overflow: visible
+}
+
+.comment .jp-progress {
+	background-color: #dbdcdd!important
+}
+
+.comment .jp-play-bar {
+	background: #cacaca
+}
+
+.comment.guest-mode .media:last-child .wall-entry-controls {
+	margin-bottom: 0;
+	margin-left: 50px
+}
+
+.comment.guest-mode .media:last-child hr {
+	display: none
+}
+
+.comment_create,
+.content_edit {
+	background-color: #fff;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	position: relative;
+	outline: 0
+}
+
+.comment_create:focus,
+.comment_create:focus-within,
+.content_edit:focus,
+.content_edit:focus-within {
+	border: 2px solid #95a5a6
+}
+
+.comment_create:focus .comment-buttons,
+.comment_create:focus-within .comment-buttons,
+.content_edit:focus .comment-buttons,
+.content_edit:focus-within .comment-buttons {
+	display: block!important
+}
+
+.comment_create:focus .ProseMirror-menubar,
+.comment_create:focus-within .ProseMirror-menubar,
+.content_edit:focus .ProseMirror-menubar,
+.content_edit:focus-within .ProseMirror-menubar {
+	display: table!important
+}
+
+.comment_create .files,
+.content_edit .files {
+	background-color: #fafafa;
+	margin-top: -10px!important;
+	border-radius: 0 0 4px 4px;
+	padding: 10px!important
+}
+
+.comment_create .form-group,
+.content_edit .form-group {
+	margin-bottom: -15px
+}
+
+.comment_create .comment-buttons,
+.content_edit .comment-buttons {
+	background-color: #fff;
+	text-align: right;
+	position: relative;
+	display: none
+}
+
+.comment_create .ProsemirrorEditor .ProseMirror,
+.content_edit .ProsemirrorEditor .ProseMirror {
+	cursor: auto
+}
+
+.comment_create .btn-comment-submit,
+.content_edit .btn-comment-submit {
+	border-radius: 4px 0 0;
+	padding: 10px 15px
+}
+
+.comment_create .fileinput-button,
+.content_edit .fileinput-button {
+	padding: 8px 10px;
+	background: 0 0!important
+}
+
+.comment_create .fileinput-button .fa,
+.content_edit .fileinput-button .fa {
+	color: #d7d7d7
+}
+
+.comment_create .fileinput-button:hover .fa,
+.content_edit .fileinput-button:hover .fa {
+	background: 0 0!important;
+	color: #b2b2b2
+}
+
+.comment_create .fileinput-button:active,
+.content_edit .fileinput-button:active {
+	box-shadow: none!important
+}
+
+.comment_create .form-control,
+.comment_create .form-control:focus,
+.content_edit .form-control,
+.content_edit .form-control:focus {
+	border: 0
+}
+
+.post-richtext-input-group {
+	position: relative
+}
+
+.comment-container .content_edit,
+.comment_edit_content {
+	margin-left: 50px
+}
+
+.comment-message {
+	overflow: hidden;
+	overflow-wrap: break-word
+}
+
+
+/**/
+
+.ProseMirror-menubar{
+	display: none;
+}
+.comment_create .comment-buttons, .content_edit .comment-buttons {
+    right: 0px;
+    display: none;
+}
+.comment_create, .content_edit {
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    position: relative;
+    outline: 0;
+}
+.comment_create .btn-comment-submit, .content_edit .btn-comment-submit {
+    border-radius: 4px 0 0;
+    padding: 5px 10px;
+}
+
+.comment-container
+{
+	margin-top: 10px;
 }
