@@ -3868,6 +3868,7 @@ img.bounceIn
 {
 	border-top-left-radius: 0 !important;
 }
+/*
 .ProsemirrorEditor.focusMenu .ProseMirror-menubar
 {
 	background: white;
@@ -3897,6 +3898,7 @@ img.bounceIn
 		margin-top: -27px;
 	}
 }
+*/
 .ProsemirrorEditor .ProseMirror
 {
 	font-variant-ligatures: none;
@@ -4021,7 +4023,7 @@ img.bounceIn
 }
 .ProsemirrorEditor .ProseMirror p
 {
-	margin-top: 1em;
+	margin-top: 0.5em;
 }
 .ProsemirrorEditor .ProseMirror p:first-child
 {
@@ -7204,4 +7206,86 @@ video {
 	moz-box-shadow: 0 0 3px #dadada;
 	position: relative;
 	webkit-box-shadow: 0 0 3px #dadada;
+}
+
+/**/
+
+.ProsemirrorEditor.plainMenu .ProseMirror-menubar {
+	background-color: #f7f7f7;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border: 1px solid #ddd;
+	position: relative;
+	min-height: 1em;
+	color: #666;
+	padding: 1px 6px 1px 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: visible
+}
+
+.ProsemirrorEditor.focusMenu .ProseMirror-menubar {
+	position: relative;
+	display: table;
+	min-height: 1em;
+	color: #666;
+	padding: 10px 5px;
+	z-index: 10;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow: visible;
+	background-color: #fff;
+	border: 0;
+	border-bottom: 0;
+	width: 100%
+}
+
+@-moz-document url-prefix() {
+	.ProsemirrorEditor.focusMenu .ProseMirror-menubar {
+		margin-top: -27px
+	}
+}
+.ProseMirror.atwho-input.form-control.humhub-ui-richtext {
+	border: 0px solid #ccc;
+
+}
+
+.comment-create-input-group .ProsemirrorEditor .ProseMirror {
+    padding-right: 10px;
+    padding-bottom: 35px;
+}
+.atwho-input.form-control {
+    height: auto;
+    min-height: 86px;
+    padding-right: 95px;
+    word-wrap: break-word;
+}
+
+.atwho-input.form-control {
+    height: auto;
+    min-height: auto;
+    padding-right: 10px;
+    word-wrap: break-word;
+}
+
+.ProsemirrorEditor .ProseMirror p:first-child+* {
+    margin-top: 0.5em;
+}
+.ProsemirrorEditor .ProseMirror p {
+    margin-bottom: 0.5em;
+}
+[data-ui-markdown] p, [data-ui-richtext] p, [data-ui-markdown] pre, [data-ui-richtext] pre, [data-ui-markdown] blockquote, [data-ui-richtext] blockquote {
+    margin: 0 0 0.5em;
+}
+
+.wall-entry-controls, .wall-entry-controls a {
+    color: #7a7a7a;
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
