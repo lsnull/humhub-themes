@@ -7613,3 +7613,8 @@ color: #fff !important;
     padding: 5px;
     font-size: 12px;
 }
+.modal-dialog-small { /*Модальное окно Файлы - Создать папку*/
+
+    width: auto;
+
+}
