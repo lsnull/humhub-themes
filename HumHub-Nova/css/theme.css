@@ -7039,7 +7039,7 @@ video {
 		max-width: 100%
 	}
 	.container {
-		max-width: 1170px
+		/* max-width: 1170px */
 	}
 	.row-reverse-lg {
 		flex-direction: row-reverse
