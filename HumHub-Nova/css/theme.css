@@ -1990,23 +1990,23 @@ body.modal-open
 }
 .modal-dialog-extra-small
 {
-	width: 400px;
+	/* width: 400px; */
 }
 .modal-dialog-small
 {
-	width: 500px;
+	/* width: 500px; */
 }
 .modal-dialog-normal
 {
-	width: 600px;
+	/* width: 600px; */
 }
 .modal-dialog-medium
 {
-	width: 768px;
+	/* width: 768px; */
 }
 .modal-dialog-large
 {
-	width: 900px;
+	/* width: 900px; */
 }
 @media screen and (max-width:920px)
 {
@@ -4364,12 +4364,12 @@ img.bounceIn
 		/* width: calc(100vw - 4px) !important; */
 	}
 	.dropdown-menu>li a,.nav-pills .dropdown-menu li a,.nav-tabs .dropdown-menu li a,.account .dropdown-menu li a,.modal .dropdown-menu li a,.panel .dropdown-menu li a,.nav-tabs .dropdown-menu li a
-	{/*
+	{
 		overflow: hidden;
 		padding-bottom: 10px;
 		padding-top: 10px;
 		text-overflow: ellipsis;
-		white-space: nowrap;*/
+		white-space: nowrap;
 	}
 	.dropdown-menu
 	{
@@ -7615,7 +7615,7 @@ color: #fff !important;
 }
 .modal-dialog-small { /*Модальное окно Файлы - Создать папку*/
 
-    width: auto;
+    /* width: auto; */
 
 }
 @media (max-width:856px){
@@ -7660,4 +7660,15 @@ color: #fff !important;
     font-size: 13px;
     overflow: hidden !important;
     padding-left: 5px;
+}
+.btn.btn-info {
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #ddd;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
