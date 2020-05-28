@@ -4364,12 +4364,12 @@ img.bounceIn
 		/* width: calc(100vw - 4px) !important; */
 	}
 	.dropdown-menu>li a,.nav-pills .dropdown-menu li a,.nav-tabs .dropdown-menu li a,.account .dropdown-menu li a,.modal .dropdown-menu li a,.panel .dropdown-menu li a,.nav-tabs .dropdown-menu li a
-	{
+	{/*
 		overflow: hidden;
 		padding-bottom: 10px;
 		padding-top: 10px;
 		text-overflow: ellipsis;
-		white-space: nowrap;
+		white-space: nowrap;*/
 	}
 	.dropdown-menu
 	{
