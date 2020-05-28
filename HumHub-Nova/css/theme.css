@@ -7624,3 +7624,6 @@ color: #fff !important;
 	padding-left: 0;
 }
 }
+.btn.btn-default.col-md-12 {
+    padding: 10px 5px;
+}
