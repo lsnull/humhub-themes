@@ -7656,3 +7656,8 @@ color: #fff !important;
     width: auto;
 
 }
+.media .media-body {
+    font-size: 13px;
+    overflow: hidden !important;
+    padding-left: 5px;
+}
