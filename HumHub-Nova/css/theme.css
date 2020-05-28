@@ -7618,3 +7618,9 @@ color: #fff !important;
     width: auto;
 
 }
+@media (max-width:856px){
+.col-md-12{
+	padding-right: 0;
+	padding-left: 0;
+}
+}
