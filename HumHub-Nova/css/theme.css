@@ -804,11 +804,11 @@ img
 	background-color: #fff;
 	border: none;
 	border-radius: 4px;
-	box-shadow: 0 0 3px #dadada;
+	box-shadow: 0 0 1px #dadada;
 	margin-bottom: 15px;
-	moz-box-shadow: 0 0 3px #dadada;
+	moz-box-shadow: 0 0 1px #dadada;
 	position: relative;
-	webkit-box-shadow: 0 0 3px #dadada;
+	webkit-box-shadow: 0 0 1px #dadada;
 	-webkit-border-radius:;
 	-moz-border-radius:;
 	-ms-border-radius:;
@@ -7210,11 +7210,11 @@ video {
 	background-color: #fff;
 	border: none;
 	border-radius: 4px;
-	box-shadow: 0 0 3px #dadada;
+	box-shadow: 0 0 1px #dadada;
 	margin-bottom: 15px;
-	moz-box-shadow: 0 0 3px #dadada;
+	moz-box-shadow: 0 0 1px #dadada;
 	position: relative;
-	webkit-box-shadow: 0 0 3px #dadada;
+	webkit-box-shadow: 0 0 1px #dadada;
 }
 
 /**/
