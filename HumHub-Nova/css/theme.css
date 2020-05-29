@@ -1579,7 +1579,7 @@ textarea
 select.form-control:not([multiple])
 {
 	appearance: none;
-	background-image: url("../img/select_arrow.png") !important;
+	/* background-image: url("../img/select_arrow.png") !important; */
 	background-position: right 13px;
 	background-repeat: no-repeat;
 	moz-appearance: none;
