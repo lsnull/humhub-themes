@@ -7682,3 +7682,11 @@ color: #fff !important;
     margin-bottom: 5px;
     color: #666;
 }
+.controls.controls-header.pull-right {
+
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+
+}
