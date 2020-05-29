@@ -7672,3 +7672,13 @@ color: #fff !important;
     overflow-y: hidden;
     white-space: nowrap;
 }
+
+/* 30.05.20 */
+
+.wall-entry .well .comment .show-all-link {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666;
+}
