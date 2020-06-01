@@ -7690,3 +7690,13 @@ color: #fff !important;
     width: 100%;
 
 }
+/* 01.06.20 */
+
+#wall-stream-filter-nav .wall-stream-filter-body {
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 0 0 4px 4px;
+    border-top: 0;
+    overflow: hidden;
+    overflow-x: auto;
+}
