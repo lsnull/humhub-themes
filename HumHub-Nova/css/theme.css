@@ -257,9 +257,9 @@ input[type=text],input[type=password],input[type=select]
 }
 .topbar .dropdown-header .dropdown-header-link
 {
-	position: absolute;
-	right: 10px;
-	top: 2px;
+    position: initial;
+    top: 2px;
+    right: 10px;
 }
 .topbar .dropdown-header .dropdown-header-link a
 {
@@ -5874,7 +5874,7 @@ input[type=text] {
 }
 
 .topbar .dropdown-header .dropdown-header-link {
-	position: absolute;
+	position: initial;
 	top: 2px;
 	right: 10px
 }
