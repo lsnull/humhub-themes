@@ -7705,17 +7705,4 @@ a.input-field-addon-sm {
     display: initial;
 }
 
-.open > .dropdown-menu {
-    display: inline-table;
-}
-#dropdown-notifications {
-    left: 0;
-    right: 0;
-    width: auto !important;
-}
-.notifications .dropdown-menu {
-    margin-left: 0 !important;
-    max-width: 300px !important;
-    width: auto !important;
-}
 
