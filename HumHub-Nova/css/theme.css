@@ -7702,7 +7702,7 @@ a.input-field-addon-sm {
 }
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     position: inherit;
-    display: initial;
+    display: inherit;
 }
 
 .open > .dropdown-menu {
@@ -7741,4 +7741,9 @@ border-radius: 4px;
 -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 box-shadow: 0 6px 12px
     rgba(0, 0, 0, 0.175);
+}
+#topbar-first .dropdown-footer {
+
+    margin: 10px 10px 10px;
+
 }
