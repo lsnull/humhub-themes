@@ -2644,7 +2644,7 @@ table td a:hover
 }
 .filter-root .row
 {
-	display: table !important;
+	display: inline-table !important;
 }
 .filter-root .filter-panel
 {
