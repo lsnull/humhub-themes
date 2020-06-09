@@ -6195,7 +6195,7 @@ input[type=text] {
 		display: none!important
 	}
 	#dropdown-notifications {
-		left: -116px
+		left: 0px
 	}
 }
 
@@ -7700,11 +7700,13 @@ a.input-field-addon-sm {
     font-size: 11px;
     margin-top: 0px;
 }
+/*
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     position: inherit;
     display: inherit;
 }
-
+*/
+@media screen and (max-width:425px){
 .open > .dropdown-menu {
     display: inline-table;
 }
@@ -7741,6 +7743,7 @@ border-radius: 4px;
 -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
 box-shadow: 0 6px 12px
     rgba(0, 0, 0, 0.175);
+}
 }
 #topbar-first .dropdown-footer {
 
