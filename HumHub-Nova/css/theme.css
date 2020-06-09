@@ -7704,3 +7704,41 @@ a.input-field-addon-sm {
     position: inherit;
     display: initial;
 }
+
+.open > .dropdown-menu {
+    display: inline-table;
+}
+#dropdown-notifications {
+    left: 0;
+    right: 0;
+    width: auto !important;
+}
+.notifications .dropdown-menu {
+    margin-left: 0 !important;
+    max-width: 300px !important;
+    width: auto !important;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px;
+    margin: 0px;
+        margin-left: 0px;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: 
+#fff;
+background-clip: padding-box;
+border: 1px solid #ccc;
+border: 1px solid rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+-webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+box-shadow: 0 6px 12px
+    rgba(0, 0, 0, 0.175);
+}
